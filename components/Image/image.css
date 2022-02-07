@@ -1,0 +1,12 @@
+@import "/docs.css";
+
+.img-round {
+  border-radius: 7%;
+  width: 12rem;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  border-radius: 0;
+}
