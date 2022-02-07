@@ -100,6 +100,11 @@ a {
   border: none;
   text-decoration: none;
   background-color: transparent;
+  cursor: pointer;
+}
+
+.btn-icon:hover {
+  font-size: larger;
 }
 
 .float-icon {
