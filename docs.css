@@ -1,0 +1,362 @@
+@import "https://use.fontawesome.com/releases/v5.0.8/css/all.css";
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+@import "./components/Alert/alert.css";
+@import "./components/button/button.css";
+@import "./components/Avator/avator.css";
+@import "./components/Badge/badge.css";
+@import "./components/Card/card.css";
+@import "./components/Image/image.css";
+@import "./components/Input/input.css";
+@import "./components/Toast/toast.css";
+
+:root {
+  --primary: #00d1b2;
+  --secondary: #ea4aaa;
+  --dark-highlight: #b5b5b5;
+  --light-highlight: #eeeeee;
+  --red: #f44336;
+  --lightRed: #ffccc7;
+  --white: #ffffff;
+  --black: #000000;
+  --green: #00ff00;
+  --lightGreen: #b7eb8f;
+  --yellow: #ffff00;
+  --blue: #1877f2;
+  --dankYellow: #eace09;
+  --paleYellow: #ff9500;
+  --ruler: #b1acac;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: #fff;
+  color: #272727;
+  min-height: 100vh;
+  font-family: Lato, "Helvetica Neue", Helvetica, sans-serif;
+  line-height: 1.4;
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    width: 70vw;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main-topic.open {
+    width: 55vw;
+  }
+  .main-topic-topic {
+    padding: 3.5rem 1rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .main-content.open {
+    width: 55vw;
+  }
+}
+
+.main-page {
+  margin-top: 82px;
+}
+
+.heading {
+  order: 2;
+}
+
+.component-page {
+  order: 2;
+  padding: 1em;
+}
+
+.title {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title h1 {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  color: #1877f2;
+  font-size: min(10vw, 4rem);
+}
+
+.title p {
+  font-size: min(5vw, 2rem);
+}
+
+ul {
+  text-align: center;
+  list-style-type: none;
+  padding: 1.5em;
+}
+
+li {
+  padding: 0;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: #1877f2;
+}
+
+.navbar-logo {
+  color: var(--white);
+  font-size: 1.4rem;
+  text-decoration: none;
+  width: 100%;
+}
+
+/*----------General Componenets-----------*/
+.item-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  z-index: 1;
+}
+
+.items {
+  font-size: 0.75rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.item {
+  padding: 1em 0;
+}
+
+.toggler {
+  width: 10%;
+}
+
+.toggler-icon {
+  width: 100%;
+}
+
+.st {
+  transition: all 0.5s ease;
+}
+
+.fixed {
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 4;
+}
+
+header {
+  width: 100%;
+  background-color: #1877f2;
+}
+
+header button {
+  border: none;
+  outline: none;
+}
+
+.material-icons {
+  color: #1877f2;
+}
+
+.component-list {
+  position: fixed;
+  background-color: white;
+  width: 100vw;
+  z-index: 5;
+  text-align: center;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: none;
+  transition: all 0.5s ease;
+  display: none;
+}
+
+.show {
+  display: initial;
+  margin-top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.5s ease;
+}
+
+.hide {
+  display: none;
+}
+
+.component-page {
+  margin-top: 1em;
+}
+
+.component-list {
+  margin-top: 3em;
+}
+
+.component-list-item {
+  font-size: 1rem;
+  width: 100vw;
+  padding: 0.5em 0;
+}
+
+.component-list-item:hover {
+  background-color: #1877f2;
+  color: white;
+}
+
+.component-list-item {
+  color: black;
+  text-decoration: none;
+}
+
+.component-list-item-active {
+  color: white;
+  background-color: #1877f2;
+}
+
+.component-list-item-active:hover {
+  background-color: #1877f2;
+}
+
+.embed {
+  width: 100%;
+}
+
+@media (min-width: 650px) {
+  .toggler-new {
+    display: none;
+  }
+
+  .fixed {
+    position: fixed;
+    display: flex;
+    justify-content: space-around;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+  }
+
+  .main-page {
+    margin-top: 82px;
+    display: flex;
+    position: relative;
+    top: 3.5rem;
+    flex-direction: row;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .heading {
+    margin-top: 6em;
+  }
+
+  .component-list {
+    position: fixed;
+    order: -1;
+    width: 15%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    margin: 0 0;
+    overflow-y: auto;
+    z-index: 2;
+  }
+
+  .toggler {
+    display: none;
+  }
+
+  .nav {
+    position: fixed;
+    order: -1;
+    width: 15%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: center;
+    margin: 0 0;
+  }
+
+  .nav:hover {
+    overflow-y: auto;
+  }
+
+  .component-list-item {
+    margin-top: 0;
+    font-size: 1.3rem;
+    padding: 0.5em 0;
+    width: 100%;
+  }
+
+  /*General Component page*/
+  .component-page {
+    position: relative;
+    left: 15%;
+    text-align: unset;
+    width: 82%;
+    margin-left: 2em;
+    padding: 0 0;
+    margin: 0;
+    padding: 1em;
+  }
+
+  .item-card {
+    text-align: unset;
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    padding: 1em;
+  }
+
+  .items {
+    font-size: 1rem;
+  }
+
+  iframe {
+    margin-bottom: 4em;
+  }
+}
+
+pre::-webkit-scrollbar {
+  display: none;
+}
+pre {
+  scrollbar-width: none;
+  /* white-space: pre-wrap; */
+
+  white-space: pre-wrap; /* Since CSS 2.1 */
+  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
+  white-space: -pre-wrap; /* Opera 4-6 */
+  white-space: -o-pre-wrap; /* Opera 7 */
+  word-wrap: break-word;
+}
