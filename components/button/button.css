@@ -1,0 +1,116 @@
+@import "../../docs.css";
+a {
+  text-decoration: none;
+}
+.btn {
+  color: var(--white);
+  background-color: var(--white);
+  border-radius: 5px;
+  text-decoration: none;
+  padding: 0.75em 1.5em;
+  display: block;
+  cursor: pointer;
+  border: none;
+}
+
+.btn:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.btn-sm {
+  padding: 0.5em 1em;
+  border-radius: 5px;
+}
+
+.btn-large {
+  padding: 1em 2em;
+  background-color: var(--secondary);
+  border-radius: 5px;
+}
+
+.btn-primary {
+  color: var(--white);
+  background-color: var(--blue);
+  padding: 0.75em 1.5em;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.btn-danger {
+  background-color: var(--red);
+  padding: 0.75em 1.5em;
+  border-radius: 5px;
+}
+
+.btn-success {
+  background-color: var(--green);
+  padding: 0.75em 1.5em;
+  border-radius: 5px;
+}
+
+.primary-outline {
+  color: var(--blue);
+  border: 2px solid rgb(31, 116, 243);
+  padding: 0.75em 1.5em;
+  border-radius: 5px;
+}
+
+.primary-outline:hover {
+  color: var(--white);
+  background-color: var(--blue);
+}
+
+.danger-outline {
+  color: var(--red);
+  border: 2px solid red;
+  padding: 0.75em 1.5em;
+  border-radius: 5px;
+}
+
+.danger-outline:hover {
+  color: var(--white);
+  background-color: var(--red);
+}
+
+.secondary-outline {
+  color: var(--secondary);
+  border: 2px solid #ea4aaa;
+  padding: 0.75em 1.5em;
+  border-radius: 5px;
+}
+
+.secondary-outline:hover {
+  color: var(--white);
+  background-color: var(--secondary);
+}
+
+.success-outline {
+  color: var(--green);
+  border: 2px solid #00ff00;
+  padding: 0.75em 1.5em;
+  border-radius: 5px;
+}
+
+.success-outline:hover {
+  color: var(--white);
+  background-color: var(--green);
+}
+
+.btn-icon {
+  border: none;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+.float-icon {
+  width: 3rem;
+  color: var(--white);
+  border-radius: 999px;
+  padding: 0.8rem 1rem;
+  background-color: var(--green);
+  box-shadow: rgba(128, 128, 128, 0.35) 0px 5px 15px;
+}
+
+.btn-link {
+  text-decoration: none;
+}
