@@ -334,7 +334,6 @@ header button {
     text-align: unset;
     display: flex;
     flex-direction: column;
-    max-width: 50%;
     padding: 1em;
   }
 
@@ -349,14 +348,4 @@ header button {
 
 pre::-webkit-scrollbar {
   display: none;
-}
-pre {
-  scrollbar-width: none;
-  /* white-space: pre-wrap; */
-
-  white-space: pre-wrap; /* Since CSS 2.1 */
-  white-space: -moz-pre-wrap; /* Mozilla, since 1999 */
-  white-space: -pre-wrap; /* Opera 4-6 */
-  white-space: -o-pre-wrap; /* Opera 7 */
-  word-wrap: break-word;
 }
