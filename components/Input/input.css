@@ -1,0 +1,38 @@
+@import "/docs.css";
+
+textarea {
+  min-height: 15rem;
+  width: 98%;
+  padding: 1rem;
+  resize: none;
+  outline: none;
+  border-radius: 0.5rem;
+  box-shadow: 0.1rem 0.1rem 0.2rem var(--ruler);
+}
+
+.form {
+  display: block;
+  width: 30rem;
+  border: thin solid #cbd5e1;
+  box-shadow: 0.1rem 0.1rem 0.2rem #cbd5e1;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.input {
+  width: 96%;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  resize: vertical;
+  margin: 1rem 0.5rem;
+  outline: none;
+}
+
+.error-msg {
+  color: var(--red);
+}
+.error-input {
+  border: 2px solid var(--red);
+  outline: none;
+}
