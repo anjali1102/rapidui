@@ -1,0 +1,21 @@
+@import "/docs.css";
+
+.txt-sml {
+  font-size: 0.7em;
+}
+
+.grey-text {
+  color: var(--dark-highlight);
+}
+
+.left-aligned-txt {
+  text-align: left;
+}
+
+.right-aligned-txt {
+  text-align: right;
+}
+
+.center-aligned-txt{
+    text-align: center;
+}
