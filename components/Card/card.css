@@ -7,6 +7,7 @@
   box-shadow: rgb(90 90 90 / 35%) 0px 5px 15px;
   position: relative;
 }
+
 .main-container {
   margin: 2rem 0;
   display: flex;
@@ -23,6 +24,7 @@
   box-shadow: rgb(90 90 90 / 35%) 0px 5px 15px;
   position: relative;
 }
+
 .card-vertical img {
   height: 15rem;
   width: 15rem;
@@ -30,8 +32,8 @@
 }
 
 .card-badge {
-  background-color: #c45500;
-  color: white;
+  background-color: var(--orange);
+  color: var(--white);
   position: absolute;
   padding: 0.4rem 0.5rem;
   font-weight: 600;
@@ -52,8 +54,9 @@
 }
 
 .card-image {
-  background-color: rgb(202, 199, 199);
+  background-color: var(--light-gray);
 }
+
 .card-info {
   display: flex;
   flex-direction: column;
@@ -81,28 +84,32 @@
   display: inline;
   padding-right: 0.45rem;
 }
+
 .actual-price {
   text-decoration: line-through;
   color: var(--ruler);
   padding-right: 0.45rem;
 }
+
 .price-percentage {
   color: var(--green);
 }
 
 .fa-heart-o:hover {
-  background-color: rgb(190, 190, 190);
+  background-color: var(--hover-gray);
   border-radius: 50%;
   padding: 0.3rem 0.3rem;
 }
+
 .add-cart {
   width: 95%;
   margin: 10px 5px;
 }
 
 .add-cart:hover {
-  background-color: #6495ed;
+  background-color: var(--hover-blue);
 }
+
 .btn {
   font-size: 1.1rem;
 }
@@ -140,7 +147,7 @@
 }
 
 .card-vertical.text-overlay .btn {
-  background-color: #6b64649c;
+  background-color: var(--hover-gray);
 }
 
 .card-vertical.text-overlay .card-image {
