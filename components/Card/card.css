@@ -1,0 +1,160 @@
+@import "/docs.css";
+
+.card {
+  width: 15rem;
+  border-radius: var(--border-md);
+  cursor: pointer;
+  box-shadow: rgb(90 90 90 / 35%) 0px 5px 15px;
+  position: relative;
+}
+
+.main-container {
+  margin: 2rem 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 1rem;
+  align-items: center;
+}
+
+.card-vertical {
+  width: 15rem;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: rgb(90 90 90 / 35%) 0px 5px 15px;
+  position: relative;
+}
+
+.card-vertical img {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-badge {
+  background-color: var(--orange);
+  color: var(--white);
+  position: absolute;
+  padding: 0.4rem 0.5rem;
+  font-weight: 600;
+  font-size: 0.8rem;
+  left: 0;
+  top: 2%;
+}
+
+.card-vertical:hover {
+  box-shadow: rgb(19 18 18/ 0.35) 0px 20px 20px;
+  transition: 0.3s;
+}
+
+.card-image {
+  border-radius: 10px 10px 0 0;
+  max-width: 100%;
+  object-fit: cover;
+}
+
+.card-image {
+  background-color: var(--light-gray);
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.card-title {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-title-header {
+  font-weight: 800;
+  font-size: 1rem;
+}
+
+.price {
+  padding: 0;
+  font-size: 1.1rem;
+  display: flex;
+  font-weight: 600;
+  margin-top: 0.5rem;
+}
+.disc-price {
+  display: inline;
+  padding-right: 0.45rem;
+}
+
+.actual-price {
+  text-decoration: line-through;
+  color: var(--ruler);
+  padding-right: 0.45rem;
+}
+
+.price-percentage {
+  color: var(--green);
+}
+
+.fa-heart-o:hover {
+  background-color: var(--hover-gray);
+  border-radius: 50%;
+  padding: 0.3rem 0.3rem;
+}
+
+.add-cart {
+  width: 95%;
+  margin: 10px 5px;
+}
+
+.add-cart:hover {
+  background-color: var(--hover-blue);
+}
+
+.btn {
+  font-size: 1.1rem;
+}
+
+.card-horizontal {
+  width: 100%;
+  display: flex;
+  box-shadow: rgb(90 90 90 / 35%) 0px 5px 15px;
+  border-radius: 10px;
+}
+
+.horizontal-img {
+  width: 35%;
+  border-radius: 10px 0 0 10px;
+  background-color: rgb(202, 199, 199);
+}
+
+/*  -----Text overlay-----  */
+.out-of-stock {
+  bottom: 50%;
+  left: 0;
+  right: 0;
+  background-color: var(--orange);
+  position: absolute;
+  color: var(--white);
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+}
+
+.card-vertical.text-overlay {
+  opacity: 0.5;
+}
+
+.card-vertical.text-overlay .btn {
+  background-color: var(--hover-gray);
+}
+
+.card-vertical.text-overlay .card-image {
+  opacity: 0.6;
+}
+
+/* ------Text And Dismiss Card----- */
+.text-only {
+  padding: 1rem;
+}

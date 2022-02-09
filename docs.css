@@ -22,9 +22,13 @@
   --lightGreen: #b7eb8f;
   --yellow: #ffff00;
   --blue: #1877f2;
+  --hover-blue: #6495ed;
   --dankYellow: #eace09;
   --paleYellow: #ff9500;
   --ruler: #b1acac;
+  --light-gray: #e0e0e0;
+  --hover-gray: #bebebe;
+  --orange: #c45500;
 }
 
 * {

@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card</title>
+    <link rel="stylesheet" href="/docs.css" />
+    <link rel="stylesheet" href="/prism.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      />
+  </head>
+  <body>
+    <nav class="navbar fixed">
+      <a href="/index.html" class="navbar-logo">Rapid UI</a>
+      <button class="toggler-new">
+        <i class="material-icons">MENU</i>
+      </button>
+    </nav>
+    
+    <!--------  Vertical Cards ---------->
+    <main class="main-page">
+      <div class="component-page">
+        <h1 class="component-title">Card</h1>
+        <p>Tell brief details about something</p>
+        <section class="item-card">
+          <h2>Vertical Card</h2>
+          <div class="main-container">
+            <div class="card-vertical">
+              <img class="card-image" src="/assests/card1.png" alt="" />
+              <span class="card-badge">Trending</span>
+              <div class="card-info">
+                <div class="card-title">
+                  <div>
+                    <h3 class="card-title-header">Tshirt</h3>
+                  </div>
+                  <i class="fa fa-heart-o" aria-hidden="true"></i>
+                </div>
+                <div class="price">
+                  <p class="disc-price">₹500</p>
+                  <p class="actual-price">₹1000</p>
+                  <p class="price-percentage">(50% OFF)</p>
+                </div>
+              </div>
+              <button class="btn btn-primary add-cart">Add to Cart</button>
+            </div>
+
+            <div class="card-vertical">
+              <img class="card-image" src="/assests/card1.png" alt="" />
+              <div class="card-info">
+                <div class="card-title">
+                  <div>
+                    <h3 class="card-title-header">Tshirt</h3>
+                  </div>
+                </div>
+                <div class="price">
+                  <p class="disc-price">₹500</p>
+                  <p class="actual-price">₹1000</p>
+                  <p class="price-percentage">(50% OFF)</p>
+                </div>
+              </div>
+              <button class="btn btn-primary add-cart">Add to Cart</button>
+            </div>
+          </div>
+
+          <!---------embedde code--------->
+          <section class="embed">
+            <script type="text/plain" class="line-numbers language-markup">
+              <div class="card-vertical">
+                <img class="card-image" src=" " alt=" " />
+                <span class="card-badge">Trending</span>
+                <div class="card-info">
+                  <div class="card-title">
+                    <div>
+                      <h3 class="card-title-header">Tshirt</h3>
+                    </div>
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                  </div>
+                  <div class="price">
+                    <p class="disc-price">₹500</p>
+                    <p class="actual-price">₹1000</p>
+                    <p class="price-percentage">(50% OFF)</p>
+                  </div>
+                </div>
+                <button class="btn btn-primary add-cart">Add to Cart</button>
+              </div>
+            </script>
+          </section>
+        </section>
+
+        <!-------- Horizontal Cards ---------->
+        <section class="item-card">
+          <h2>Horizontal Card</h2>
+          <div class="main-container">
+            <div class="horizontal-container">
+              <div class="card-horizontal">
+                <img
+                  class="card-img horizontal-img"
+                  src="/assests/card1.png"
+                  alt=""
+                />
+                <div class="card-info">
+                  <div class="card-title">
+                    <div>
+                      <h3>T Shirt</h3>
+                    </div>
+                  </div>
+                  <div class="price">
+                    <p class="disc-price">₹850</p>
+                    <p class="actual-price">₹1500</p>
+                    <p class="price-percentage">(50% OFF)</p>
+                  </div>
+                  <button class="btn btn-primary add-cart">Go to Cart</button>
+                  <button class="btn btn-primary add-cart">
+                    Move to Wishlist
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-------- embed code --------->
+          <section class="embed">
+            <script type="text/plain" class="line-numbers language-markup">
+              <div class="horizontal-container">
+                <div class="card-horizontal">
+                  <img
+                    class="card-img horizontal-img"
+                    src=" "
+                    alt=" "
+                  />
+                  <div class="card-info">
+                    <div class="card-title">
+                      <div>
+                        <h3>T Shirt</h3>
+                      </div>
+                    </div>
+                    <div class="price">
+                      <p class="disc-price">₹850</p>
+                      <p class="actual-price">₹1500</p>
+                      <p class="price-percentage">(50% OFF)</p>
+                    </div>
+                    <button class="btn btn-primary add-cart">Go to Cart</button>
+                    <button class="btn btn-primary add-cart">
+                    Move to Wishlist
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </script>
+          </section>
+        </section>
+
+        <!---------- Text Overlay ---------->
+        <section class="item-card">
+          <h2>Text Overlay</h2>
+          <div class="card-vertical text-overlay">
+            <img class="card-image" src="/assests/card1.png" alt="" />
+            <span class="text-overlay-sec">
+              <p class="out-of-stock">Out of Stock</p>
+            </span>
+            <div class="card-info">
+              <div class="card-title">
+                <div>
+                  <h3 class="card-title-header">Tshirt</h3>
+                </div>
+                <i class="fa fa-heart-o" aria-hidden="true"></i>
+              </div>
+            </div>
+            <div class="price">
+              <p class="disc-price">₹500</p>
+              <p class="actual-price">₹1000</p>
+              <p class="price-percentage">(50% OFF)</p>
+            </div>
+            <button class="btn btn-primary add-cart">Add to Cart</button>
+          </div>
+
+          <!---------- embed code --------->
+          <section class="embed">
+            <script type="text/plain" class="line-numbers language-markup">
+              <div class="card-vertical text-overlay">
+                <img class="card-image" src="/assests/card1.png" alt="" />
+                <span class="text-overlay-sec">
+                  <p class="out-of-stock">Out of Stock</p>
+                </span>
+                <div class="card-info">
+                  <div class="card-title">
+                    <div>
+                      <h3 class="card-title-header">Tshirt</h3>
+                    </div>
+                    <i class="fa fa-heart-o" aria-hidden="true"></i>
+                  </div>
+                </div>
+                <div class="price">
+                  <p class="disc-price">₹500</p>
+                  <p class="actual-price">₹1000</p>
+                  <p class="price-percentage">(50% OFF)</p>
+                </div>
+                <button class="btn btn-primary add-cart">Add to Cart</button>
+              </div>
+            </script>
+          </section>
+        </section>
+
+        <!-------Text only and dismiss Cards------->
+        <section class="item-card">
+          <h2>Text And Dismiss Cards</h2>
+          <div class="card text-only">
+            <div class="card-title">
+              <div>
+                <h3>Lorem ipsum</h3>
+                <p class="card-description">lorem</p>
+              </div>
+              <i class="fas fa-times-circle dismiss-btn bor-full"></i>
+            </div>
+            <div class="card-info">
+              <h5>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Repellat ipsam nemo ipsum eos eius quo id officiis asperiores.
+              </h5>
+            </div>
+          </div>
+
+          <!---------embed code --------->
+          <section class="embed">
+            <script type="text/plain" class="line-numbers language-markup">
+              <div class="card text-only">
+                <div class="card-title">
+                  <div>
+                    <h3>Lorem ipsum</h3>
+                    <p class="card-description">lorem</p>
+                  </div>
+                  <i class="fas fa-times-circle dismiss-btn bor-full"></i>
+                </div>
+                <div class="card-info">
+                  <h5>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                    Repellat ipsam nemo ipsum eos eius quo id officiis asperiores.
+                  </h5>
+                </div>
+              </div>
+            </script>
+          </section>
+        </section>
+      </div>
+
+      <section>
+        <aside class="component-list">
+          <a href="../Alert/alert.html" class="component-list-item">ALERT</a>
+          <a href="../button/button.html" class="component-list-item">BUTTON</a>
+          <a href="../Avator/avator.html" class="component-list-item">AVATOR</a>
+          <a href="../Badge/badge.html" class="component-list-item">BADGE</a>
+          <a href="#" class="component-list-item">CARD</a>
+          <a href="../Image/image.html" class="component-list-item">IMAGE</a>
+          <a href="../Input/input.html" class="component-list-item">INPUT</a>
+          <a href="../Toast/toast.html" class="component-list-item">TOAST</a>
+          <a href="" class="component-list-item"></a
+          ><a href="" class="component-list-item"></a
+          ><a href="" class="component-list-item"></a>
+        </aside>
+      </section>
+    </main>
+    <script src="/prism.js"></script>
+  </body>
+</html>
