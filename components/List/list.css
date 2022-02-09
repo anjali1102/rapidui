@@ -1,0 +1,28 @@
+@import "/docs.css";
+
+.list-spaced,
+.list-notify {
+  font-size: 1.2rem;
+  text-align: unset;
+  margin: 0;
+}
+
+.list-spaced-item,
+.list-notify-item {
+  text-align: left;
+  border-bottom: 1px solid rgb(0, 0, 0, 0.1);
+  padding: 0.5em;
+}
+
+.list-notify-item:hover {
+  color: var(--white);
+  background-color: var(--hover-gray);
+  cursor: pointer;
+}
+
+@media (min-width: 650px) {
+  .list-group {
+    font-size: 1.5rem;
+    padding: 0;
+  }
+}

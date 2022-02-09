@@ -8,6 +8,7 @@
 @import "./components/Image/image.css";
 @import "./components/Input/input.css";
 @import "./components/Text-Utilities/text.css";
+@import "./components/List/list.css";
 @import "./components/Toast/toast.css";
 
 :root {
