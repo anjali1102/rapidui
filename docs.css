@@ -1,4 +1,4 @@
-@import "https://use.fontawesome.com/releases/v5.0.8/css/all.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
 @import "./components/Alert/alert.css";
 @import "./components/button/button.css";
@@ -9,6 +9,7 @@
 @import "./components/Input/input.css";
 @import "./components/Text-Utilities/text.css";
 @import "./components/List/list.css";
+@import "./components/Rating/rating.css";
 @import "./components/Toast/toast.css";
 
 :root {
@@ -23,6 +24,7 @@
   --green: #00ff00;
   --lightGreen: #b7eb8f;
   --yellow: #ffff00;
+  --bright-yellow: #ffcc00;
   --blue: #1877f2;
   --hover-blue: #6495ed;
   --dankYellow: #eace09;
