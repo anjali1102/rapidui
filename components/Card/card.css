@@ -95,12 +95,6 @@
   color: var(--green);
 }
 
-.fa-heart-o:hover {
-  background-color: var(--hover-gray);
-  border-radius: 50%;
-  padding: 0.3rem 0.3rem;
-}
-
 .add-cart {
   width: 95%;
   margin: 10px 5px;

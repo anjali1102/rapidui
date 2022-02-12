@@ -202,6 +202,11 @@ header button {
   display: none;
   transition: all 0.5s ease;
   display: none;
+  overflow-y: scroll;
+  width: 20%;
+  padding: 1.5rem;
+  background-color: var(--ruler);
+  max-height: 68vh;
 }
 
 .show {

@@ -2,24 +2,74 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rapid UI</title>
+    <title>Rapid UI | Easiest and Fastest way to design your webpage</title>
+    <link
+      rel="shortcut icon"
+      href="http://assets.stickpng.com/images/580b57fcd9996e24bc43c538.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="homepage.css" />
+    <link rel="stylesheet" href="/prism.css" />
+    <script src="/prism.js" defer></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <div class="">
-      <nav class="">
-        <a href="index.html" class="">Rapid UI</a>
-      </nav>
-      <div class="">
-        <div>
-          <div class="">
-            <h1>Rapid UI</h1>
-            <p>Easiest and Fastest way to design your webpage</p>
-            <a href="docs.html" class="">Get Started</a>
-          </div>
+    <!-- Hero Section -->
+    <div class="main">
+      <div class="main__container">
+        <div class="main__content">
+          <h1>Rapid UI</h1>
+          <p>
+            A <span>lightweight</span> and <span>ready-to-use</span> CSS library
+            for developing fast and responsive web interfaces.
+          </p>
+          <a href="#sec1">
+          <button class="main__btn">
+            Getting Started
+          </button>
+        </a>
+        </div>
+        <div class="main__img--container">
+          <img
+            id="main__img"
+            src="https://gateway.pinata.cloud/ipfs/QmSkwiFumZsFkQCJJLsgEi7Ls6f6hL8fP1e3wagrCytYWG"
+          />
         </div>
       </div>
     </div>
+    <!-- Installation Section -->
+    <section class="section_container" id="sec1">
+      <div class="head__text">
+        <h1 class="heading_2">Installation Guide</h1>
+      </div>
+      <div class="text__context">
+        <p class="para_2">
+          Looking to quickly add Rapid UI, Use it to your project?
+        </p>
+        <p class="para_2">
+          Copy the link and paste it in the head tag of your html, above all other style sheets. i.e. import the stylesheet in your html file.
+        </p>        
+      </div>
+      <h3 class="sub_context">CSS</h3>
+      <div>
+          <section class="embed">
+            <script type="text/plain" class="line-numbers language-markup">
+              <link rel="stylesheet" href="https://rapidui.vercel.app/docs.css">
+            </script>
+          </section>
+      </div>
+      <h3 class="sub_context">Javascript</h3>
+    </div>
+      <section class="embed">
+        <script type="text/plain" class="line-numbers language-markup">
+          <script src="https://rapidui.vercel.app/index.js"/>
+        </script>
+      </section>
+      <a href="/components/Alert/alert.html"><div class="section__btn">See Documentation</div></a>
+    </section>
   </body>
 </html>
