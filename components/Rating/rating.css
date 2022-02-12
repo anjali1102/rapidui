@@ -21,7 +21,6 @@ input.star:checked ~ label.star:before {
 }
 input.star-5:checked ~ label.star:before {
   color: var(--bright-yellow);
-  text-shadow: 0 0 20px var(--hover-gray);
 }
 label.star:hover {
   transform: rotate(5deg) scale(1.3);
