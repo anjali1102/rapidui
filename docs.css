@@ -1,4 +1,4 @@
-@import "https://use.fontawesome.com/releases/v5.0.8/css/all.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
 @import "./components/Alert/alert.css";
 @import "./components/button/button.css";
@@ -9,6 +9,7 @@
 @import "./components/Input/input.css";
 @import "./components/Text-Utilities/text.css";
 @import "./components/List/list.css";
+@import "./components/Rating/rating.css";
 @import "./components/Toast/toast.css";
 
 :root {
@@ -23,6 +24,7 @@
   --green: #00ff00;
   --lightGreen: #b7eb8f;
   --yellow: #ffff00;
+  --bright-yellow: #ffcc00;
   --blue: #1877f2;
   --hover-blue: #6495ed;
   --dankYellow: #eace09;
@@ -117,17 +119,33 @@ li {
 .navbar {
   display: flex;
   align-items: center;
-  padding: 1em;
   justify-content: space-between;
+  height: 85px;
+  padding: 0 2rem;
+  background-color: var(--black);
   flex-wrap: wrap;
-  background-color: #1877f2;
+
+  /* overflow: hidden; */
 }
 
 .navbar-logo {
-  color: var(--white);
+  color: var(--black);
   font-size: 1.4rem;
   text-decoration: none;
-  width: 100%;
+  /* width: 100%; */
+}
+
+.logo-small-screen {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex: 1;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 2rem;
 }
 
 /*----------General Componenets-----------*/
@@ -190,18 +208,11 @@ header button {
 }
 
 .component-list {
-  position: fixed;
-  background-color: white;
-  width: 100vw;
-  z-index: 5;
-  text-align: center;
-  margin-top: 0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  display: none;
-  transition: all 0.5s ease;
-  display: none;
+  width: 20%;
+  padding: 1.5rem;
+  background-color: var(--background);
+  overflow-y: scroll;
+  max-height: 80vh;
 }
 
 .show {
@@ -231,8 +242,19 @@ header button {
   padding: 0.5em 0;
 }
 
+.component-list-item:focus {
+  background-color: black;
+  color: white;
+}
+
 .component-list-item:hover {
-  background-color: #1877f2;
+  background-color: black;
+  color: white;
+  transition: 0.5s ease;
+}
+
+.component-list-item:active {
+  background-color: black;
   color: white;
 }
 
@@ -243,11 +265,7 @@ header button {
 
 .component-list-item-active {
   color: white;
-  background-color: #1877f2;
-}
-
-.component-list-item-active:hover {
-  background-color: #1877f2;
+  background-color: var(--black);
 }
 
 .embed {
@@ -356,4 +374,35 @@ header button {
 
 pre::-webkit-scrollbar {
   display: none;
+}
+
+.nav-links li {
+  padding-right: 1rem;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.social-links {
+  display: flex;
+  /* color: var(--white); */
+}
+
+.social-links .list-style-none .fa {
+  color: var(--white);
+}
+
+@media only screen and (max-width: 500px) {
+  .social-links {
+    display: none;
+  }
+}
+
+.toggler-new {
+  display: none;
+}
+
+@media only screen and (max-width: 500px) {
+  .toggler-new {
+    display: flex;
+  }
 }
