@@ -124,15 +124,12 @@ li {
   padding: 0 2rem;
   background-color: var(--black);
   flex-wrap: wrap;
-
-  /* overflow: hidden; */
 }
 
 .navbar-logo {
   color: var(--black);
   font-size: 1.4rem;
   text-decoration: none;
-  /* width: 100%; */
 }
 
 .logo-small-screen {
@@ -384,7 +381,6 @@ pre::-webkit-scrollbar {
 
 .social-links {
   display: flex;
-  /* color: var(--white); */
 }
 
 .social-links .list-style-none .fa {
