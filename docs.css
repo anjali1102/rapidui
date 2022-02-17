@@ -11,7 +11,7 @@
 @import "./components/List/list.css";
 @import "./components/Rating/rating.css";
 @import "./components/Toast/toast.css";
-
+@import "./components/Modal/modal.css";
 :root {
   --primary: #00d1b2;
   --secondary: #ea4aaa;
