@@ -1,0 +1,43 @@
+@import "/docs.css";
+
+.modal {
+  width: 30rem;
+  max-width: 80%;
+  border-radius: 2%;
+  box-shadow: #00000059 0px 5px 15px;
+}
+
+.head-modal {
+  font-size: 1.2em;
+  display: flex;
+  padding: 0.4em;
+  justify-content: space-between;
+  border-bottom: 1px solid var(--ruler);
+}
+
+.title-modal {
+  background-color: inherit;
+  font-weight: bold;
+}
+
+.close {
+  font-size: 1.2rem;
+  width: 10%;
+  background-color: var(--white);
+  border: none;
+  cursor: pointer;
+}
+
+.body-modal {
+  padding: 0.4em;
+}
+
+.footer-modal {
+  padding: 0.2em;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn {
+  margin: 0.4em;
+}

@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>List</title>
+    <title>Modal</title>
     <link rel="stylesheet" href="/docs.css" />
     <link rel="stylesheet" href="/prism.css" />
   </head>
@@ -37,69 +37,52 @@
 
     <main class="main-page">
       <div class="component-page">
-        <h1 class="component-title">List</h1>
+        <h1 class="component-title">Modal</h1>
         <p>
-          The modal component provides a solid foundation for creating dialogs,
-          popovers, lightboxes, or whatever else.
+          A modal is a popup window that is displayed on top of the current
+          page.
         </p>
-        <!------- Simple List -------->
-        <section class="item-card">
-          <h2>Simple List</h2>
-          <ul class="list list-spaced">
-            <li class="list-spaced-item">Gryffindor</li>
-            <li class="list-spaced-item">Slytherin</li>
-            <li class="list-spaced-item">Hufflepuff</li>
-            <li class="list-spaced-item">Ravenclaw</li>
-          </ul>
-        </section>
-        <section class="embed">
-          <script type="text/plain" class="line-numbers language-markup">
-            <ul class="list list-spaced">
-              <li class="list-spaced-item">Gryffindor</li>
-              <li class="list-spaced-item">Slytherin</li>
-              <li class="list-spaced-item">Hufflepuff</li>
-              <li class="list-spaced-item">Ravenclaw</li>
-            </ul>
-          </script>
-        </section>
 
-        <!-------- Stacked List -------->
         <section class="item-card">
-          <h2>Stacked List</h2>
-          <ul class="list list-notify">
-            <li class="list-notify-item">
-              Lorem ipsum dolor sit amet consectetur
-            </li>
-            <li class="list-notify-item">
-              Lorem ipsum dolor sit amet consectetur
-            </li>
-            <li class="list-notify-item">
-              Lorem ipsum dolor sit amet consectetur
-            </li>
-            <li class="list-notify-item">
-              Lorem ipsum dolor sit amet, consectetur
-            </li>
-          </ul>
-        </section>
-        <section class="embed">
-          <script type="text/plain" class="line-numbers language-markup">
-            <ul class="list list-notify">
-              <li class="list-notify-item">
-                Lorem ipsum dolor sit amet consectetur
-              </li>
-              <li class="list-notify-item">
-                Lorem ipsum dolor sit amet consectetur
-              </li>
-              <li class="list-notify-item">
-                Lorem ipsum dolor sit amet consectetur
-              </li>
-              <li class="list-notify-item">
-                Lorem ipsum dolor sit amet, consectetur
-              </li>
-            </ul>
-          </script>
+          <div class="items">
+            <div class="modal">
+              <div class="head-modal">
+                <header class="title-modal">
+                  Do you want to delete this item ?
+                </header>
+                <button class="close">X</button>
+              </div>
+              <div class="body-modal">
+                <p>Write here something</p>
+              </div>
+              <div class="footer-modal">
+                <button class="btn btn-primary">Cancel</button>
+                <button class="btn btn-danger">Delete</button>
+              </div>
+            </div>
+          </div>
+          <section class="embed">
+            <script type="text/plain" class="line-numbers language-markup">
+              <div class="modal">
+                <div class="head-modal">
+                  <header class="title-modal">
+                    Do you want to delete this item ?
+                  </header>
+                  <button class="close">X</button>
+                </div>
+                <div class="body-modal">
+                  <p>Write here something</p>
+                </div>
+                <div class="footer-modal">
+                  <button class="btn btn-primary">Cancel</button>
+                  <button class="btn btn-danger">Delete</button>
+                </div>
+              </div>
+            </script>
+          </section>
         </section>
       </div>
+
       <section>
         <aside class="component-list">
           <a href="../Alert/alert.html" class="component-list-item">ALERT</a>
