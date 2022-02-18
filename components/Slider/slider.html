@@ -2,10 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" type="text/css" href="/docs.css" />
+    <title>Slider</title>
+    <link rel="stylesheet" href="/docs.css" />
     <link rel="stylesheet" href="/prism.css" />
-    <title>Images</title>
   </head>
   <body>
     <nav class="navbar fixed">
@@ -36,36 +37,39 @@
 
     <main class="main-page">
       <div class="component-page">
-        <h1 class="component-title">Images</h1>
-        <p>
-          An image is a graphic representation. Can be responsive (stay in parent container), have rounded corners.
-        </p>
+        <h1 class="component-title">Slider</h1>
+        <p>Allow users to view and select a value (or range) in the range</p>
+
         <section class="item-card">
-          <h2>Round Image</h2>
-          <div class="image">
-            <img src="/assests/img3.jpg" alt="image3" class="image img-round" />
+          <div class="items">
+            <div class="priceSlider">
+              <h4 class="rangeValue">0</h4>
+              <input
+                type="range"
+                min="0"
+                max="100"
+                value="0"
+                class="slider"
+                id="sliderRange"
+              />
+            </div>
           </div>
           <section class="embed">
             <script type="text/plain" class="line-numbers language-markup">
-              <img src=" " alt=" " class="image img-round">
+              <div class="priceSlider">
+                <h4 class="rangeValue">0</h4>
+                  <input
+                    type="range"
+                    min="0"
+                    max="100"
+                    value="0"
+                    class="slider"
+                    id="sliderRange"
+                  />
+              </div>
             </script>
           </section>
         </section>
-
-        <section class="item-card">
-          <h2>Responsive Image</h2>
-          <div class="image">
-            <img
-              src="/assests/img2.jpg"
-              alt="image2"
-              class="image img-responsive"
-            />
-          </div>
-          <section class="embed">
-            <script type="text/plain" class="line-numbers language-markup">
-              <img src=" " alt=" " class="image img-responsive">
-            </script>
-          </section>
       </div>
 
       <section>
@@ -75,18 +79,21 @@
           <a href="../Avator/avator.html" class="component-list-item">AVATOR</a>
           <a href="../Badge/badge.html" class="component-list-item">BADGE</a>
           <a href="../Card/card.html" class="component-list-item">CARD</a>
-          <a href="#" class="component-list-item">IMAGE</a>
+          <a href="../Image/image.html" class="component-list-item">IMAGE</a>
           <a href="../Input/input.html" class="component-list-item">INPUT</a>
-          <a href="../Text-Utilities/text.html" class="component-list-item">TEXT</a>
+          <a href="../Text-Utilities/text.html" class="component-list-item"
+            >TEXT</a
+          >
           <a href="../List/list.html" class="component-list-item">LIST</a>
+          <a href="../Rating/rating.html" class="component-list-item">RATING</a>
           <a href="../Toast/toast.html" class="component-list-item">TOAST</a>
           <a href="../Modal/modal.html" class="component-list-item">MODAL</a>
-          <a href="../Slider/slider.html" class="component-list-item">SLIDER</a>
+          <a href="#" class="component-list-item">SLIDER</a>
         </aside>
       </section>
     </main>
-
     <script src="/index.js" defer></script>
+    <script src="slider.js"></script>
     <script src="/prism.js"></script>
   </body>
 </html>
