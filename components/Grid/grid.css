@@ -10,8 +10,8 @@
 }
 
 .grid-cols-2 > div {
-  background-color: #444;
-  color: #fff;
+  background-color: var(--lightRed);
+  color: var(--black);
   padding: 1em;
 }
 
@@ -20,8 +20,8 @@
 }
 
 .grid-rows-2 > div {
-  background-color: #444;
-  color: #fff;
+  background-color: var(--lightRed);
+  color: var(--black);
   padding: 1em;
 }
 
@@ -31,8 +31,8 @@
 }
 
 .grid-cols-3 > div {
-  background-color: #444;
-  color: #fff;
+  background-color: var(--lightRed);
+  color: var(--black);
   padding: 1em;
 }
 
@@ -41,7 +41,7 @@
 }
 
 .grid-rows-3 > div {
-  background-color: #444;
-  color: #fff;
+  background-color: var(--lightRed);
+  color: var(--black);
   padding: 1em;
 }
