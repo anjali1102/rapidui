@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Grid</title>
+    <link rel="stylesheet" href="/docs.css" />
+    <link rel="stylesheet" href="/prism.css" />
+  </head>
+  <body>
+    <nav class="navbar fixed">
+      <div class="logo-small-screen">
+        <a href="/index.html">
+          <img
+            src="../../assests/Rapid ui.png"
+            alt="logo"
+            class="navbar-logo"
+          />
+        </a>
+        <button class="toggler-new">
+          <i class="material-icons">MENU</i>
+        </button>
+      </div>
+      <ul class="social-links">
+        <li class="list-style-none">
+          <a href=""><i class="fa fa-twitter fa-2x"></i></a>
+        </li>
+        <li class="list-style-none">
+          <a href=""><i class="fa fa-github fa-2x"></i></a>
+        </li>
+        <li class="list-style-none">
+          <a href=""><i class="fa fa-linkedin fa-2x"></i></a>
+        </li>
+      </ul>
+    </nav>
+
+    <main class="main-page">
+      <div class="component-page">
+        <h1 class="component-title">Grid</h1>
+        <p>CSS Grid can be used to structure elements in rows and columns.</p>
+
+        <section class="item-card">
+          <h3>Two Columns Grid</h3>
+          <div class="items">
+            <div class="grid grid-cols-2">
+              <div>Item one</div>
+              <div>Item two</div>
+            </div>
+          </div>
+
+          <section class="embed">
+            <script type="text/plain" class="line-numbers language-markup">
+              <div class="grid grid-cols-2">
+                <div>Item one</div>
+                <div>Item two</div>
+              </div>
+            </script>
+          </section>
+
+          <!------- 2 Rows Grid --------->
+          <h3>Two Rows Grid</h3>
+          <div class="items">
+            <div class="grid grid-rows-2">
+              <div>Item one</div>
+              <div>Item two</div>
+            </div>
+          </div>
+
+          <section class="embed">
+            <script type="text/plain" class="line-numbers language-markup">
+              <div class="grid grid-rows-2">
+                <div>Item one</div>
+                <div>Item two</div>
+              </div>
+            </script>
+          </section>
+
+          <!------- 3 Columns Grid ------>
+          <h3>Three Columns Grid</h3>
+          <div class="items">
+            <div class="grid grid-cols-3">
+              <div>Item one</div>
+              <div>Item two</div>
+              <div>Item three</div>
+            </div>
+          </div>
+
+          <section class="embed">
+            <script type="text/plain" class="line-numbers language-markup">
+              <div class="grid grid-cols-3">
+                <div>Item one</div>
+                <div>Item two</div>
+                <div>Item three</div>
+              </div>
+            </script>
+          </section>
+
+          <!-------- 3 Rows Grid ------>
+          <h3>Three Rows Grid</h3>
+          <div class="items">
+            <div class="grid grid-rows-3">
+              <div>Item one</div>
+              <div>Item two</div>
+              <div>Item three</div>
+            </div>
+          </div>
+
+          <section class="embed">
+            <script type="text/plain" class="line-numbers language-markup">
+              <div class="grid grid-rows-3">
+                <div>Item one</div>
+                <div>Item two</div>
+                <div>Item three</div>
+              </div>
+            </script>
+          </section>
+        </section>
+      </div>
+
+      <section>
+        <aside class="component-list">
+          <a href="../Alert/alert.html" class="component-list-item">ALERT</a>
+          <a href="../button/button.html" class="component-list-item">BUTTON</a>
+          <a href="../Avator/avator.html" class="component-list-item">AVATOR</a>
+          <a href="../Badge/badge.html" class="component-list-item">BADGE</a>
+          <a href="../Card/card.html" class="component-list-item">CARD</a>
+          <a href="../Image/image.html" class="component-list-item">IMAGE</a>
+          <a href="../Input/input.html" class="component-list-item">INPUT</a>
+          <a href="../Text-Utilities/text.html" class="component-list-item"
+            >TEXT</a
+          >
+          <a href="../List/list.html" class="component-list-item">LIST</a>
+          <a href="../Rating/rating.html" class="component-list-item">RATING</a>
+          <a href="../Toast/toast.html" class="component-list-item">TOAST</a>
+          <a href="../Modal/modal.html" class="component-list-item">MODAL</a>
+          <a href="../Slider/slider.html" class="component-list-item">SLIDER</a>
+          <a href="#" class="component-list-item">GRID</a>
+        </aside>
+      </section>
+    </main>
+    <script src="/index.js" defer></script>
+    <script src="slider.js"></script>
+    <script src="/prism.js"></script>
+  </body>
+</html>

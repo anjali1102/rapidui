@@ -13,6 +13,7 @@
 @import "./components/Toast/toast.css";
 @import "./components/Modal/modal.css";
 @import "./components/Slider/slider.css";
+@import "./components/Grid/grid.css";
 :root {
   --primary: #00d1b2;
   --secondary: #ea4aaa;
