@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Modal</title>
+    <title>Grid</title>
     <link rel="stylesheet" href="/docs.css" />
     <link rel="stylesheet" href="/prism.css" />
   </head>
@@ -37,46 +37,81 @@
 
     <main class="main-page">
       <div class="component-page">
-        <h1 class="component-title">Modal</h1>
-        <p>
-          A modal is a popup window that is displayed on top of the current
-          page.
-        </p>
+        <h1 class="component-title">Grid</h1>
+        <p>CSS Grid can be used to structure elements in rows and columns.</p>
 
         <section class="item-card">
+          <h3>Two Columns Grid</h3>
           <div class="items">
-            <div class="modal">
-              <div class="head-modal">
-                <header class="title-modal">
-                  Do you want to delete this item ?
-                </header>
-                <button class="close">X</button>
-              </div>
-              <div class="body-modal">
-                <p>Write here something</p>
-              </div>
-              <div class="footer-modal">
-                <button class="btn btn-primary">Cancel</button>
-                <button class="btn btn-danger">Delete</button>
-              </div>
+            <div class="grid grid-cols-2">
+              <div>Item one</div>
+              <div>Item two</div>
             </div>
           </div>
+
           <section class="embed">
             <script type="text/plain" class="line-numbers language-markup">
-              <div class="modal">
-                <div class="head-modal">
-                  <header class="title-modal">
-                    Do you want to delete this item ?
-                  </header>
-                  <button class="close">X</button>
-                </div>
-                <div class="body-modal">
-                  <p>Write here something</p>
-                </div>
-                <div class="footer-modal">
-                  <button class="btn btn-primary">Cancel</button>
-                  <button class="btn btn-danger">Delete</button>
-                </div>
+              <div class="grid grid-cols-2">
+                <div>Item one</div>
+                <div>Item two</div>
+              </div>
+            </script>
+          </section>
+
+          <!------- 2 Rows Grid --------->
+          <h3>Two Rows Grid</h3>
+          <div class="items">
+            <div class="grid grid-rows-2">
+              <div>Item one</div>
+              <div>Item two</div>
+            </div>
+          </div>
+
+          <section class="embed">
+            <script type="text/plain" class="line-numbers language-markup">
+              <div class="grid grid-rows-2">
+                <div>Item one</div>
+                <div>Item two</div>
+              </div>
+            </script>
+          </section>
+
+          <!------- 3 Columns Grid ------>
+          <h3>Three Columns Grid</h3>
+          <div class="items">
+            <div class="grid grid-cols-3">
+              <div>Item one</div>
+              <div>Item two</div>
+              <div>Item three</div>
+            </div>
+          </div>
+
+          <section class="embed">
+            <script type="text/plain" class="line-numbers language-markup">
+              <div class="grid grid-cols-3">
+                <div>Item one</div>
+                <div>Item two</div>
+                <div>Item three</div>
+              </div>
+            </script>
+          </section>
+
+          <!-------- 3 Rows Grid ------>
+          <h3>Three Rows Grid</h3>
+          <div class="items">
+            <div class="grid grid-rows-3">
+              <div>Item one</div>
+              <div>Item two</div>
+              <div>Item three</div>
+            </div>
+          </div>
+
+          <section class="embed">
+            <script type="text/plain" class="line-numbers language-markup">
+              <div class="grid grid-rows-3">
+                <div>Item one</div>
+                <div>Item two</div>
+                <div>Item three</div>
               </div>
             </script>
           </section>
@@ -91,7 +126,7 @@
           <a href="../Badge/badge.html" class="component-list-item">BADGE</a>
           <a href="../Card/card.html" class="component-list-item">CARD</a>
           <a href="../Image/image.html" class="component-list-item">IMAGE</a>
-          <a href="#" class="component-list-item">INPUT</a>
+          <a href="../Input/input.html" class="component-list-item">INPUT</a>
           <a href="../Text-Utilities/text.html" class="component-list-item"
             >TEXT</a
           >
@@ -100,11 +135,12 @@
           <a href="../Toast/toast.html" class="component-list-item">TOAST</a>
           <a href="../Modal/modal.html" class="component-list-item">MODAL</a>
           <a href="../Slider/slider.html" class="component-list-item">SLIDER</a>
-          <a href="../Grid/grid.html" class="component-list-item">GRID</a>
+          <a href="#" class="component-list-item">GRID</a>
         </aside>
       </section>
     </main>
     <script src="/index.js" defer></script>
+    <script src="slider.js"></script>
     <script src="/prism.js"></script>
   </body>
 </html>
