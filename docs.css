@@ -23,7 +23,7 @@
   --lightRed: #ffccc7;
   --white: #ffffff;
   --black: #000000;
-  --green: #00ff00;
+  --green: #26bd65;
   --lightGreen: #b7eb8f;
   --yellow: #ffff00;
   --bright-yellow: #ffcc00;
@@ -202,7 +202,7 @@ header button {
   outline: none;
 }
 
-.material-icons {
+.fa fa-bars {
   color: #1877f2;
 }
 
