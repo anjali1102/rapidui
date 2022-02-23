@@ -1,4 +1,3 @@
-# rapid ui
 
 
 # [Rapid UI](https://rapidui.vercel.app/)
