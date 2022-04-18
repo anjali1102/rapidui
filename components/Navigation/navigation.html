@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Navigation</title>
+    <link rel="stylesheet" type="text/css" href="/docs.css" />
+    <link rel="stylesheet" href="/prism.css" />
+  </head>
+  <body>
+    <nav class="navbar fixed">
+      <div class="logo-small-screen">
+        <a href="/index.html">
+          <img
+            src="../../assests/Rapid ui.png"
+            alt="logo"
+            class="navbar-logo"
+          />
+        </a>
+        <button class="toggler-new">
+          <i class="fa fa-bars">MENU</i>
+        </button>
+      </div>
+      <ul class="social-links">
+        <li class="list-style-none">
+          <a href="https://twitter.com/anjalii1102"
+            ><i class="fa fa-twitter fa-2x"></i
+          ></a>
+        </li>
+        <li class="list-style-none">
+          <a href="https://github.com/anjali1102/"
+            ><i class="fa fa-github fa-2x"></i
+          ></a>
+        </li>
+        <li class="list-style-none">
+          <a href="https://www.linkedin.com/in/anjali1102/"
+            ><i class="fa fa-linkedin fa-2x"></i
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <main class="main-page">
+      <div class="component-page">
+        <h1 class="component-title">Navigation</h1>
+
+        <!--simple navbar-->
+        <section class="item-card">
+            <h3>Desktop Navbar</h3>
+            <div class="navg-simple">
+              <li><a class="active" href="#home">Home</a></li>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#about">About</a></li>
+            </div>
+        </section>
+
+        <!-- subnav -->
+        <section class="item-card">
+            <h3>Subnavbar</h3>
+            <div class="navg">
+                <a href="#home">Home</a>
+                <div class="subnav">
+                    <button class="subnavbtn">
+                        About </i>
+                    </button>
+                <div class="subnav-content">
+                    <a href="#company">Company</a>
+                    <a href="#team">Team</a>
+                    <a href="#careers">Careers</a>
+                </div>
+            </div>
+            <div class="subnav">
+                <button class="subnavbtn">
+            Services <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="subnav-content">
+                    <a href="#bring">Bring</a>
+                    <a href="#deliver">Deliver</a>
+                    <a href="#package">Package</a>
+                    <a href="#express">Express</a>
+                </div>
+            </div>
+            <div class="subnav"></div>
+                <a href="#contact">Contact</a>
+            </div>
+            <div>
+                <h3>Subnav/dropdown menu inside a Navigation Bar</h3>
+            <p>Hover over the "about", "services" link to see the sub
+                navigation menu.</p>
+            </div>
+        </section>
+
+
+        <!-- hamburger -->
+        <section class="item-card">
+            <h3>Hamburger Menu</h3>
+            <div class="mobile-container">
+            <div class="topnav">
+                <a href="#home" class="active">Logo</a>
+                <div id="myLinks">
+                <a href="#news">News</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+                </div>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                </a>
+            </div>
+            <div>
+                <p>
+                Click on the hamburger menu in the top right corner, to toggle the
+                menu.
+                </p>
+            </div>
+            </div>
+        </div>
+        </section>
+        
+
+      <section>
+        <aside class="component-list">
+          <a href="../Alert/alert.html" class="component-list-item">ALERT</a>
+          <a href="../button/button.html" class="component-list-item">BUTTON</a>
+          <a href="../Avator/avator.html" class="component-list-item">AVATOR</a>
+          <a href="../Badge/badge.html" class="component-list-item">BADGE</a>
+          <a href="../Card/card.html" class="component-list-item">CARD</a>
+          <a href="../Image/image.html" class="component-list-item">IMAGE</a>
+          <a href="../Input/input.html" class="component-list-item">INPUT</a>
+          <a href="../Text-Utilities/text.html" class="component-list-item"
+            >TEXT</a
+          >
+          <a href="../List/list.html" class="component-list-item">LIST</a>
+          <a href="../Rating/rating.html" class="component-list-item">RATING</a>
+          <a href="../Toast/toast.html" class="component-list-item">TOAST</a>
+          <a href="../Modal/modal.html" class="component-list-item">MODAL</a>
+          <a href="../Slider/slider.html" class="component-list-item">SLIDER</a>
+          <a href="../Grid/grid.html" class="component-list-item">GRID</a>
+          <a href="#" class="component-list-item">NAVIGATION</a>
+        </aside>
+      </section>
+    </main>
+    <script src="./navigation.js"></script>
+  </body>
+</html>

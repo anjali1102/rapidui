@@ -1,0 +1,134 @@
+/* simple navbar */
+.navg-simple {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: var(--paleYellow);
+}
+
+.navg-simple>li {
+  float: left;
+}
+
+.navg-simple>li>a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 0.8rem 1rem;
+  text-decoration: none;
+}
+
+.navg-simple>li>a:hover:not(.active) {
+  background-color: var(--hover-gray);
+}
+
+.active {
+  background-color: var(--green);
+}
+
+/* subnav */
+.navg {
+  overflow: hidden;
+  background-color: var(--paleYellow);
+}
+
+.navg a {
+  float: left;
+  font-size: 1rem;
+  color: white;
+  text-align: center;
+  padding: 0.8rem 1rem;
+  text-decoration: none;
+}
+
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+.subnav .subnavbtn {
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 0.8rem 1rem;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navg a:hover,
+.subnav:hover .subnavbtn {
+  background-color: var(--green);
+}
+
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: var(--green);
+  width: 100%;
+  z-index: 1;
+}
+
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+.subnav-content a:hover {
+  background-color:white;
+  color: black;
+}
+
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+/* hamburger */
+.mobile-container {
+  max-width: 30rem;
+  margin: auto;
+  background-color: var(--paleYellow);
+  height: 31rem;
+  color: white;
+  border-radius: 0.6rem;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: var(--green);
+  position: relative;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  color: white;
+  padding: 0.8rem 1rem;
+  text-decoration: none;
+  font-size: 1rem;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+.active {
+  background-color: var(--green);
+  color: white;
+}
