@@ -38,6 +38,7 @@ Instant UI uses [fontawesome](https://fontawesome.com/) to satisfy the icon requ
 - [Slider](https://rapidui.vercel.app/components/Slider/slider.html)
 - [Modal](https://rapidui.vercel.app/components/Modal/modal.html)
 - [Text Utilities](https://rapidui.vercel.app/components/Text-Utilities/text.html)
+- [Navigation](https://rapidui.vercel.app/components/Navigation/navigation.html)
 
 ## Quick Tour
 
