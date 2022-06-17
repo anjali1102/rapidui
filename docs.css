@@ -204,20 +204,6 @@ li {
   z-index: 4;
 }
 
-/* header {
-  width: 100%;
-  background-color: #1877f2;
-} */
-
-/* header button {
-  border: none;
-  outline: none;
-} */
-
-/* .fa fa-bars {
-  color: #1877f2;
-} */
-
 .component-list {
   width: 20%;
   padding: 1.5rem;
@@ -576,3 +562,10 @@ pre::-webkit-scrollbar {
     display: none;
   }
 }
+
+@media screen and (max-width: 652px) {
+  .installation-container {
+    width: 50vw;
+  }
+}
+  

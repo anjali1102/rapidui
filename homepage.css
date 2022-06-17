@@ -269,3 +269,9 @@ span {
   padding: 2rem 0;
   color: white;
 }
+
+@media screen and (max-width: 650px) {
+  .installation-container {
+    width: 80vw;
+  }
+}
