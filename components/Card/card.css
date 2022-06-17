@@ -96,9 +96,7 @@
 }
 
 .fa-heart-o:hover {
-  background-color: var(--hover-gray);
-  border-radius: 50%;
-  padding: 0.3rem 0.3rem;
+  color: red;
 }
 
 .add-cart {

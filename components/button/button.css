@@ -17,8 +17,8 @@ a {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-.btn-sm {
-  padding: 0.5em 1em;
+.btn-small {
+  padding: 0.2em 0.1em;
   border-radius: 5px;
 }
 
@@ -104,7 +104,7 @@ a {
 }
 
 .btn-icon:hover {
-  font-size: larger;
+  color: var(--hover);
 }
 
 .float-icon {

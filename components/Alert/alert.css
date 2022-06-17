@@ -7,14 +7,12 @@
 
 .text-error {
   padding: 1rem;
-  border: 1px solid var(--red);
   background-color: var(--lightRed);
   margin-bottom: 1rem;
 }
 
 .text-success {
   padding: 1rem;
-  border: 1px solid var(--green);
   background-color: var(--lightGreen);
   margin-bottom: 1rem;
 }
@@ -84,3 +82,5 @@
 .alert-ico-red {
   color: var(--red);
 }
+
+

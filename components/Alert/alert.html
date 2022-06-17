@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="/prism.css" />
     <title>Alert</title>
   </head>
-  <body>
+  <body id="style-8">
     <nav class="navbar fixed">
       <div class="logo-small-screen">
         <a href="/index.html">
@@ -17,43 +17,74 @@
             class="navbar-logo"
           />
         </a>
-        <button class="toggler-new">
-          <i class="fa fa-bars"></i>
-        </button>
+
+        <!-- Navbar on Hamburger -->
+        <div class="hamburgerNav">
+          <div class="hamContainer navContainer">
+            <input class="checkbox" type="checkbox" name="" id="" />
+            <div class="hamburger-lines">
+              <span class="line line1"></span>
+              <span class="line line2"></span>
+              <span class="line line3"></span>
+            </div>
+            <div class="menu-items">
+              <li><a href="#">ALERT</a></li>
+              <li><a href="../button/button.html">BUTTON</a></li>
+              <li><a href="../Avator/avator.html">AVATOR</a></li>
+              <li><a href="../Badge/badge.html">BADGE</a></li>
+              <li><a href="../Card/card.html">CARD</a></li>
+              <li><a href="../Image/image.html">IMAGE</a></li>
+              <li><a href="../Input/input.html">INPUT</a></li>
+              <li><a href="../Text-Utilities/text.html">TEXT</a></li>
+              <li><a href="../List/list.html">LIST</a></li>
+              <li><a href="../Rating/rating.html">RATING</a></li>
+              <li><a href="../Toast/toast.html">TOAST</a></li>
+              <li><a href="../Modal/modal.html">MODAL</a></li>
+              <li><a href="../Slider/slider.html">SLIDER</a></li>
+              <li><a href="../Grid/grid.html">GRID</a></li>
+            </div>
+          </div>
+        </div>
       </div>
       <ul class="social-links">
         <li class="list-style-none">
-          <a href="https://twitter.com/anjalii1102"
+          <a
+            href="https://twitter.com/anjalii1102/status/1483886106353758209?cxt=HHwWgsDThaij6ZcpAAAA"
+            target="_blank"
             ><i class="fa fa-twitter fa-2x"></i
           ></a>
         </li>
         <li class="list-style-none">
-          <a href="https://github.com/anjali1102/"
+          <a href="https://github.com/anjali1102/" target="_blank"
             ><i class="fa fa-github fa-2x"></i
           ></a>
         </li>
         <li class="list-style-none">
-          <a href="https://www.linkedin.com/in/anjali1102/"
+          <a href="https://www.linkedin.com/in/anjali1102/" target="_blank"
             ><i class="fa fa-linkedin fa-2x"></i
           ></a>
         </li>
       </ul>
     </nav>
 
-    <main class="main-page">
+    <main class="main-page" id="style-8">
       <div class="component-page">
         <h1 class="component-title">Alerts</h1>
         <section class="item-card">
           <h3>ERROR ALERT</h3>
           <div class="alert text-error">
-            <span class="alert__text">Error Text</span>
+            <span class="alert__text"
+              ><strong>Error!</strong> This is Error Alert</span
+            >
           </div>
         </section>
 
         <section class="item-card">
           <h3>SUCCESS ALERT</h3>
           <div class="alert text-success">
-            <span class="alert__text">Success Text</span>
+            <span class="alert__text"
+              ><strong>Success!</strong> This is Success Alert</span
+            >
           </div>
         </section>
 
@@ -123,7 +154,7 @@
         </section>
       </div>
       <section>
-        <aside class="component-list">
+        <aside class="component-list" id="style-8" class="show">
           <a href="#" class="component-list-item">ALERT</a>
           <a href="../button/button.html" class="component-list-item">BUTTON</a>
           <a href="../Avator/avator.html" class="component-list-item">AVATOR</a>
@@ -143,7 +174,7 @@
         </aside>
       </section>
     </main>
-    <script src="/index.js" defer></script>
+    <script src="/index.js"></script>
     <script src="/prism.js"></script>
   </body>
 </html>

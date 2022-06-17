@@ -1,4 +1,3 @@
-
 /*------ Toast ------*/
 
 const toasts = document.querySelectorAll(".toasts");
@@ -18,18 +17,3 @@ const handleSucessToast = (toastMessage) => {
 successToast[0].addEventListener("click", () =>
   handleSucessToast("This is success toast.")
 );
-
-const toggleNav = () => {
-  const nav = document.querySelector(".component-list");
-  nav.classList.toggle("show");
-};
-
-togglerNew.addEventListener("click", () => {
-  const nav = document.querySelector(".component-list");
-  nav.classList.toggle("show");
-});
-const toggler = document.querySelector(".toggler");
-toggler.addEventListener("click", toggleNav);
-
-const togglerNew = document.querySelector(".toggler-new");
-
