@@ -14,7 +14,7 @@ Rapid UI is an open source, light-weight styling framework that enables develope
 
 ## How to use?
 To use Rapid UI in your project, copy the link given below and paste it in the `<head>` tag of your html, above all other style sheets. <br/>
-![image](https://user-images.githubusercontent.com/56559378/155257750-0ebe9736-1ea7-4f80-84f6-7a3d44e5c4f2.png)
+![image](https://user-images.githubusercontent.com/56559378/174393883-e0f7e2a0-ded5-42bd-b4f9-95bdaea710a2.png)
 
 ### Dependencies
 Instant UI uses [fontawesome](https://fontawesome.com/) to satisfy the icon requirements. Copy the following link and paste it in the `<head>` tag to use the same.
@@ -43,7 +43,7 @@ Instant UI uses [fontawesome](https://fontawesome.com/) to satisfy the icon requ
 
 <div align="center">
   
-![image](https://user-images.githubusercontent.com/56559378/155258173-9db44ba4-2d31-40c4-9de2-0e02ba22840e.png)
+![image](https://user-images.githubusercontent.com/56559378/174393778-b2218cdf-5cd7-4c55-9ce8-c4a8347b2eef.png)
 
   
 </div>
