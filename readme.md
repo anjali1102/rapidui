@@ -10,7 +10,8 @@ Rapid UI is an open source, light-weight styling framework that enables develope
 
 ## Technologies Used
   - HTML
-  - Vanilla CSS
+  - Vanilla JS
+  - CSS
 
 ## How to use?
 To use Rapid UI in your project, copy the link given below and paste it in the `<head>` tag of your html, above all other style sheets. <br/>
